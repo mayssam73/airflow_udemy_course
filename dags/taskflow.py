@@ -2,12 +2,13 @@ from airflow.decorators import dag, task
 from datetime import datetime
 
 @dag(
-    start_date=datetime(2023, 1, 1)
-    schedule_interval='daily'
+    start_date=datetime(2023, 1, 1),
+    schedule_interval='@daily',
     catchup=False,
     tags=['taskflow']
 )
 def taskflow():
+    
     @task
     def task_a():
         print("Task A")
