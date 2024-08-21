@@ -19,6 +19,7 @@ def taskflow():
         print("Task B")
         print(value)
 
-    task_b(task_a())
+    result = task_a()
+    task_b(result)
 
 taskflow()
