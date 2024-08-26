@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "airflow_udemy_course",
+			"path": "."
+		},
+		{
+			"name": ".astro",
+			"path": "../udemy_airflow/.astro"
+		},
+		{
+			"name": "dags",
+			"path": "../udemy_airflow/dags"
+		},
+		{
+			"name": "include",
+			"path": "../udemy_airflow/include"
+		},
+		{
+			"name": "plugins",
+			"path": "../udemy_airflow/plugins"
+		},
+		{
+			"name": "spark",
+			"path": "../udemy_airflow/spark"
+		},
+		{
+			"name": "tests",
+			"path": "../udemy_airflow/tests"
+		}
+	],
+	"settings": {}
+}
